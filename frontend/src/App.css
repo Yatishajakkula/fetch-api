@@ -12,7 +12,7 @@ h1 {
   color: #333;
 }
 
-/* photo grid */
+
 .photo-grid {
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +39,6 @@ h1 {
   color: #555;
   margin-top: 6px;
 
-  /* cut long titles */
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
