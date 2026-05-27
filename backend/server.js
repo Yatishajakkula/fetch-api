@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors());
 
-// route to get photos - using picsum which actually works
+
 app.get("/api/photos", async (req, res) => {
   try {
     const response = await fetch("https://picsum.photos/v2/list?limit=12");
